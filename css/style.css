@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/home_bg.webp) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+ 
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header nav .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+header nav .social li a{
+    text-decoration: none;
+    background: #FAFBD3;
+    border-radius: 11px; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 50px;
+    box-shadow: #00000040 0px 4px 4px 4px; 
+}
+@font-face {
+    font-family: "Action Comics";   
+    src: url(../fonts/action_comics.ttf) format("truetype");
+}
+
+.title{
+    text-align: center;
+    padding-top: 135px;
+    font-family: "Action Comics", Arial, Helvetica, sans-serif;
+    font-size: 55px; 
+    color: red;
+    position: absolute;
+    left: calc(50% - 280px);
+    
+
+}
+.buy_now_btn{
+    width: 140px;
+    height: 50px;
+    background: #00FBA6;
+    border-radius: 11px;
+    border: 3px solid #000000;
+    box-shadow: #FAFBD3 0px 4px 8.8px 2px; 
+    font-size: 22px;
+    cursor: pointer;
+    font-family: "ADLaM Display", serif;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: -280px;
+}
+.join_fiesta .t1{
+    font-family: "ADLaM Display", serif;
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+.join_fiesta .t2{
+    font-family: 'Angkor', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #30D982;
+    -webkit-text-stroke: 1px black;
+}
+.join_fiesta .menu{
+    display: flex;
+    list-style: none;
+    min-width: 630px;
+    width: 100%; 
+    justify-content: space-around;
+    border-radius: 11px;
+    overflow: hidden;
+}
+.join_fiesta .menu li{ 
+    font-family: 'ADLaM Display', serif;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+.join_fiesta .menu li a{
+    text-decoration: none;
+    display: inline-block;
+    background: red;
+    color: #000000;
+    width: 100%;
+    padding: 10px;
+}
+.join_fiesta .menu li a:hover{
+    color: #00FBA6;
+}
+main img{
+    padding-top: 45px;
+}
