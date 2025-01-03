@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background: url(../images/home_bg.webp) no-repeat center center fixed;
+    background: url(../images/mint_bg_ray.png) no-repeat center center fixed;
     background-size: cover;
+    background-position-y: top;
+    text-align: center;
     overflow: hidden;
+}
+.mint_bg{  
+    padding-top: 195px;
 }
 
 header{
@@ -47,12 +52,12 @@ header nav .social li a{
 
 .title{
     text-align: center;
-    padding-top: 135px;
+    padding-top: 190px;
     font-family: "Action Comics", Arial, Helvetica, sans-serif;
-    font-size: 55px; 
+    font-size: 48px; 
     color: red;
     position: absolute;
-    left: calc(50% - 280px);
+    width: 100%;
     
 
 }
@@ -77,16 +82,15 @@ main{
 }
 .join_fiesta .t1{
     font-family: "ADLaM Display", serif;
-    font-size: 36px;
+    font-size: 22px;
     text-align: center;
     color: black;
+    font-weight: normal;
+    width: 100%;
+    max-width: 728px;
 }
 .join_fiesta .t2{
-    font-family: 'Angkor', serif;
-    font-size: 36px;
-    text-align: center;
-    color: #30D982;
-    -webkit-text-stroke: 1px black;
+    margin: 20px 0;
 }
 .join_fiesta .menu{
     display: flex;
@@ -127,7 +131,7 @@ main{
     }
 }
 main img{
-    width: 63%;
+    width: 59%;
     animation-name: fade;
     animation-duration: 2s;
     animation-iteration-count: infinite;
