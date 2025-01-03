@@ -16,7 +16,7 @@ body {
     width: 100%;
     z-index: -1;
     overflow: hidden;
-    max-height: 258vh;
+    min-height: 258vh;
     object-fit: cover;
 }
 @keyframes fade{
